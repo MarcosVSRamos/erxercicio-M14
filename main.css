@@ -1,0 +1,89 @@
+/* cola para fontes
+font-family: "Roboto", sans-serif;
+font-family: "Playwrite CU", cursive; */
+
+body{
+    background-color: #768f144e;
+    font-family: "Roboto", sans-serif;
+}
+
+.navbar {
+    background-color: #768f14
+}
+
+#cabecalho .nav .nav-link.active{
+    background-color: #fff;
+    color: #768f14;
+}
+
+#menu-navegacao ul li a{
+    color: #fff;
+    font-size: smaller;
+}
+
+#cabecalho div h1{
+    color: #fff;
+    font-weight: bold;
+}
+
+.section-title{
+    font-family: "Playwrite CU", cursive;
+}
+
+.text-colored{
+    color: #768f14;
+}
+
+#container-slide{
+    height: 640px;
+}
+
+#container-slide img{
+    width: 100%;
+    max-height: 640px;
+}
+
+.nav-experiencias .nav-link.active {
+    background-color: #768f14;
+}
+
+.nav-experiencias .nav-link:hover{
+    color: #768f14;
+}
+
+.social-links li{
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+#form-viaje-conosco button{
+    background-color: #768f14;
+    color: #fff;
+}
+
+#form-viaje-conosco button:hover{
+    background-color: #343f07;
+    width: 75px;
+    height: 39px;
+}
+
+@media (max-width: 767px) {
+
+    #carousel{
+        height: 280px;
+    }
+
+    .carousel-item img {
+        height: 280px;
+        object-fit: cover;
+        width: 100%;
+    }
+    
+    .nav{
+        margin-top: 12px;
+    }
+}

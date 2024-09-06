@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guia Turístico - MS</title>
+
+    <link rel="stylesheet" href="./lib/bootstrap.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+CU&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+
+    <link rel="stylesheet" href="./main.css">
+
+</head>
+
+<body>
+
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+        <div class="container">
+
+            <h1 class="navbar-brand m-0 section-title">Guia - MS</h1>
+
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a href="#sobre-ms" class="nav-link">
+                            <i class="bi bi-map-fill me-1"></i>
+                            Sobre o MS
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#lugares-imperdiveis" class="nav-link">
+                            <i class="bi bi-signpost-split-fill ma-1"></i>
+                            Lugares imperdíveis
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#fotos-e-experiencias" class="nav-link">
+                            <i class="bi bi-camera-fill me-1"></i>
+                            Fotos e experiências
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#viaje-conosco" class="nav-link">
+                            <i class="bi bi-luggage-fill me-1"></i>
+                            Viaje conosco
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+
+        <section id="sobre-ms">
+
+        <div class="carousel slide" data-bs-ride="carousel" id="carousel">    
+            <div class="container mt-2" id="container-slide">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="5000">
+                        <img src="./imagens/amanhecer-pantanal.jpg" alt="sol nascendo">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="5000">
+                        <img src="./imagens/crocodilo.jpg" alt="crocodilo">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="5000">
+                        <img src="./imagens/pantanal.jpg" alt="pantanal">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="5000">
+                        <img src="./imagens/tucano.jpg" alt="tucano">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="5000">
+                        <img src="./imagens/rio.jpg" alt="rio">
+                    </div>
+
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
+
+                </div>
+            </div>
+
+            <div class="carousel-indicators">
+                <button type="button" class="active" data-bs-target="#carousel" data-bs-slide-to="0"></button>
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="3"></button>
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="4"></button>
+            </div>
+        </div>
+
+        <div class="pt-4 pb-4">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-md-5">
+                        <img src="./imagens/sobre-ms.jpg" class="d-block w-100 rounded" alt="uma cidade">
+                    </div>
+
+                    <div class="col-md-7 mt-3 mt-md-0">
+                        <h2 class="section-title">Sobre <span class="text-colored">o estado</span></h2>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti praesentium enim excepturi. Ipsum error pariatur doloremque inventore molestias totam minus libero ullam quibusdam, illo aliquam ea magnam facere aperiam veritatis.
+                            </p>
+                            <h3 class="section-title">Sobre <span class="text-colored">a cultura</span></h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima aliquid adipisci quisquam soluta quos nesciunt obcaecati voluptatibus optio dolorem laudantium placeat accusamus ducimus delectus aliquam, rem mollitia, eum aut error.
+                            </p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        </section>
+
+        <section id="lugares-imperdiveis" class="pt-4 pb-4">
+
+            <div class="container">
+
+                <div class="row">
+                    <h2 class="section-title text-center pb-4">Natureza, diversão <span class="text-colored">e beleza!</span></h2>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-4">
+                        <img src="./imagens/pontos/bioparque-frente.webp" alt="bioparque" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class=""></i>
+                            Bioparque pantanal
+                        </h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi quibusdam corporis suscipit? Eligendi harum sapiente qui at maiores ad neque explicabo a alias numquam facilis praesentium id atque, voluptatibus vel.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="./imagens/pontos/pantanal-garcas.webp" alt="pantanal" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class=""></i>
+                            O Pantanal
+                        </h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi quibusdam corporis suscipit? Eligendi harum sapiente qui at maiores ad neque explicabo a alias numquam facilis praesentium id atque, voluptatibus vel.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="./imagens/pontos/bonito-tablado.jpg" alt="bonito" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class=""></i>
+                            Balneário em Bonito
+                        </h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi quibusdam corporis suscipit? Eligendi harum sapiente qui at maiores ad neque explicabo a alias numquam facilis praesentium id atque, voluptatibus vel.</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <section id="fotos-e-experiencias" class="pt-4 pb-4">
+
+            <div class="container">
+
+                <div class="row">
+                    <h2 class="section-title text-center mb-5">Fotos <span class="text-colored">e experiências</span></h2>
+                </div>
+
+                <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-column nav-experiencias">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#bioparque" class="fw-bold text-start nav-link text-colored active" >Bioparque</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#pantanal" class="fw-bold text-start nav-link text-colored" >Pantanal</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#bonito" class="fw-bold text-start nav-link text-colored" >Bonito</button>
+                        </nav>
+                    </aside>
+
+                    <div class="col-md-10">
+
+                        <div class="tab-content">
+
+                            <div class="tab-pane active" id="bioparque">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./imagens/pontos/bioparque-animais.jpeg" alt="animais">
+                                        <h5 class="text-colored fw-bold mt-2">Flora Sul-matogrossense</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./imagens/pontos/bioparque-frente.webp" alt="bioparque">
+                                        <h5 class="text-colored fw-bold mt-2">O maior do mundo</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./imagens/pontos/bioparque-abaixo-dos-peixes.jpg" alt="abaixo-dos-peixes">
+                                        <h5 class="text-colored fw-bold mt-2">Peixes</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./imagens/pontos/bioparque-lago.jpg" alt="lago">
+                                        <h5 class="text-colored fw-bold mt-2">Lagos</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./imagens/pontos/bioparque-animais.jpeg" alt="animais">
+                                        <h5 class="text-colored fw-bold mt-2">Flora Sul-matogrossense</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./imagens/pontos/bioparque-frente.webp" alt="bioparque">
+                                        <h5 class="text-colored fw-bold mt-2">O maior do mundo</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./imagens/pontos/bioparque-abaixo-dos-peixes.jpg" alt="abaixo-dos-peixes">
+                                        <h5 class="text-colored fw-bold mt-2">Peixes</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./imagens/pontos/bioparque-lago.jpg" alt="lago">
+                                        <h5 class="text-colored fw-bold mt-2">Lagos</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="tab-content">
+
+                            <div class="tab-pane" id="pantanal">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./imagens/pontos/pantanal-boiadeiros.png" alt="boiadeiros">
+                                        <h5 class="text-colored fw-bold mt-2">Boiadeiros</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./imagens/pontos/pantanal-caravana-boiadeira.webp" alt="caravana-boiadeira">
+                                        <h5 class="text-colored fw-bold mt-2">Cararavanas</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./imagens/pontos/pantanal-floresta.jpg" alt="floresta">
+                                        <h5 class="text-colored fw-bold mt-2">Florestas</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./imagens/pontos/pantanal-garcas.webp" alt="fauna">
+                                        <h5 class="text-colored fw-bold mt-2">Fauna</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./imagens/pontos/pantanal-boiadeiros.png" alt="boiadeiros">
+                                        <h5 class="text-colored fw-bold mt-2">Boiadeiros</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./imagens/pontos/pantanal-caravana-boiadeira.webp" alt="caravana-boiadeira">
+                                        <h5 class="text-colored fw-bold mt-2">Cararavanas</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./imagens/pontos/pantanal-floresta.jpg" alt="floresta">
+                                        <h5 class="text-colored fw-bold mt-2">Florestas</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./imagens/pontos/pantanal-garcas.webp" alt="fauna">
+                                        <h5 class="text-colored fw-bold mt-2">Fauna</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="tab-content">
+
+                            <div class="tab-pane" id="bonito">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./imagens/pontos/bonito-figueira.jpg" alt="praia figueira">
+                                        <h5 class="text-colored fw-bold mt-2">Praia figueira</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./imagens/pontos/bonito-peixes.jpg" alt="peixes">
+                                        <h5 class="text-colored fw-bold mt-2">Peixes nativos</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./imagens/pontos/bonito-rio.jpg" alt="rio">
+                                        <h5 class="text-colored fw-bold mt-2">Rios e lagos</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./imagens/pontos/bonito-tablado.jpg" alt="tablado">
+                                        <h5 class="text-colored fw-bold mt-2">Picinas naturais</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./imagens/pontos/bonito-figueira.jpg" alt="praia figueira">
+                                        <h5 class="text-colored fw-bold mt-2">Praia figueira</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./imagens/pontos/bonito-peixes.jpg" alt="peixes">
+                                        <h5 class="text-colored fw-bold mt-2">Peixes nativos</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./imagens/pontos/bonito-rio.jpg" alt="rio">
+                                        <h5 class="text-colored fw-bold mt-2">Rios e lagos</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./imagens/pontos/bonito-tablado.jpg" alt="tablado">
+                                        <h5 class="text-colored fw-bold mt-2">Picinas naturais</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <section id="viaje-conosco" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Viaje <span class="text-colored">conosco</span></h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7 mb-5">
+                        <form id="form-viaje-conosco">
+                            <div class="mb-3">
+                                <label for="nome" class="form-label fw-bold text-colored">Nome</label>
+                                <input type="text" id="nome" class="form-control" name="nome" placeholder="Seu nome aqui">
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label fw-bold text-colored">Seu e-mail</label>
+                                <input type="email" id="email" class="form-control" name="email" placeholder="exemplo@gmail.com">
+                            </div>
+                            <div class="mb-3">
+                                <label for="telefone" class="form-label fw-bold text-colored">Seu telefone (opcional)</label>
+                                <input type="tel" id="telefone" class="form-control" placeholder="(00) 00000-0000">                      </div>
+                            <div class="mb-3">
+                                <label for="mensagem" class="form-label fw-bold text-colored">Destino desejado</label>
+                                <textarea id="mensagem" class="form-control" name="mensagem" placeholder="Cidade-MS"></textarea>
+                            </div>
+
+                            <button type="submit" class="btn fw-bold">Enviar</button>
+
+                        </form>
+                    </div>
+
+                    <div class="col-md-5">
+
+                        <div class="row mb-4">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-currency-exchange"></i>
+                                Os melhores preços do brasil
+                            </h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque, soluta exercitationem! Recusandae voluptatem possimus, consectetur corrupti, soluta animi quae magnam sint ducimus libero dolore voluptatibus! Deserunt libero illo tempora atque.
+                            </p>
+                        </div>
+
+                        <div class="row">
+                            <h3 class="section-title fs-4 text-colored mb-4">
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                Acompanhe nas redes sociais
+                            </h3>
+                            <ul class="social-links">
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-facebook text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5 ms-1 me-1">
+                                    <a href="#">
+                                        <i class="bi bi-instagram text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-whatsapp text-colored"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="row mt-4">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-cursor-fill"></i>
+                                Endereço
+                            </h3>
+                            <p>
+                                Rua Teste Exemplo n° 145, Bairro Bootstrap - São Paulo - SP
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+
+
+    <script src="./lib/bootstrap.bundle.min.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://code.jquery.com/jquery-migrate-3.7.1.min.js"></script>
+    <script src="./lib/jquery.validate.min.js"></script>
+    <script src="./lib/messages_pt_BR.min.js"></script>
+
+    <script src="./lib/jquery.mask.min.js"></script>
+
+    <script src="./main.js"></script>
+
+    
+</body>
+</html>
